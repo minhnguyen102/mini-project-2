@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --color-one: #FF589E;
+    --color-two : #8261EE;
+    --color-text : #777777;
+    --color-text-two : #1e1e1e;
+    --bg-one: #F2F2FE;
+    --bg-two:#fff;
+    --font-one : "Raleway", sans-serif;
+}
+
+body{
+    font-family: var(--font-one);
+    color: var(#000);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+a:hover{
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+/* Inner-content */
+.inner-content{
+    text-align: center;
+}
+.inner-content .inner-title{
+    color: #000;
+    margin-bottom: 20px;
+}
+.inner-content .inner-desc{
+    color: #000;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+/* End Inner-content */
